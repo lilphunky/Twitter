@@ -16,7 +16,7 @@ The following **required** functionality is completed:
 
 The following **bonus** features are implemented:
 
-- [ ] User can pull to refresh. (1pt)
+- [x] User can pull to refresh. (1pt)
 - [ ] User can load past tweets infinitely. (2pts)
 
 ## Video Walkthrough
@@ -28,3 +28,8 @@ Here's a walkthrough of implemented user stories:
 User stays logged in across restarts:
 
 <img src='https://i.imgur.com/MERauob.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+User can pull to refresh:
+
+<img src='https://i.imgur.com/orDI6Te.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
