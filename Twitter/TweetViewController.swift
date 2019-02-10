@@ -14,8 +14,7 @@ class TweetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        tweetTextView.becomeFirstResponder()
     }
     
     @IBAction func cancel(_ sender: Any) {
