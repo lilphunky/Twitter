@@ -80,19 +80,39 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etc-n5-6G9">
-                                            <rect key="frame" x="73" y="33" width="286" height="76"/>
+                                            <rect key="frame" x="73" y="33" width="286" height="46"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRf-Du-Glq">
+                                            <rect key="frame" x="321" y="87" width="30" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="J1Y-6Q-9fe"/>
+                                                <constraint firstAttribute="width" constant="30" id="YT0-A9-Yqj"/>
+                                            </constraints>
+                                            <state key="normal" image="favor-icon"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bjr-4e-tma">
+                                            <rect key="frame" x="283" y="89" width="30" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="7RJ-jW-PlU"/>
+                                                <constraint firstAttribute="width" constant="30" id="lUU-6Y-ill"/>
+                                            </constraints>
+                                            <state key="normal" image="retweet-icon"/>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="GZI-gp-RBt" firstAttribute="top" secondItem="guw-VX-IJ7" secondAttribute="top" id="5WQ-CI-g5E"/>
                                         <constraint firstItem="GZI-gp-RBt" firstAttribute="leading" secondItem="guw-VX-IJ7" secondAttribute="leading" id="9jK-6Q-Cqe"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="0wV-Q4-Jqr" secondAttribute="trailing" id="CRR-Bo-Kwv"/>
-                                        <constraint firstItem="etc-n5-6G9" firstAttribute="bottom" secondItem="guw-VX-IJ7" secondAttribute="bottomMargin" id="Wjl-cc-wCk"/>
+                                        <constraint firstItem="KRf-Du-Glq" firstAttribute="top" secondItem="etc-n5-6G9" secondAttribute="bottom" constant="8" id="Qfh-3K-xCT"/>
+                                        <constraint firstAttribute="bottom" secondItem="Bjr-4e-tma" secondAttribute="bottom" constant="0.5" id="SJP-Ir-EsB"/>
                                         <constraint firstItem="0wV-Q4-Jqr" firstAttribute="top" secondItem="guw-VX-IJ7" secondAttribute="topMargin" id="ZTK-rC-1N3"/>
+                                        <constraint firstItem="KRf-Du-Glq" firstAttribute="leading" secondItem="Bjr-4e-tma" secondAttribute="trailing" constant="8" id="bKc-8i-SOo"/>
+                                        <constraint firstItem="KRf-Du-Glq" firstAttribute="bottom" secondItem="guw-VX-IJ7" secondAttribute="bottomMargin" constant="8" id="eyw-Ay-dns"/>
                                         <constraint firstItem="0wV-Q4-Jqr" firstAttribute="leading" secondItem="GZI-gp-RBt" secondAttribute="trailing" constant="8" id="hxf-lA-U7F"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="KRf-Du-Glq" secondAttribute="trailing" constant="8" id="o9w-Qd-O74"/>
                                         <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="GZI-gp-RBt" secondAttribute="bottom" id="pNT-Q6-dgN"/>
                                         <constraint firstItem="etc-n5-6G9" firstAttribute="trailing" secondItem="guw-VX-IJ7" secondAttribute="trailingMargin" id="tNR-8f-r6v"/>
                                         <constraint firstItem="etc-n5-6G9" firstAttribute="leading" secondItem="GZI-gp-RBt" secondAttribute="trailing" constant="8" id="vE7-qX-8Ta"/>
@@ -218,4 +238,8 @@
             <point key="canvasLocation" x="2077.5999999999999" y="43.628185907046479"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="favor-icon" width="30" height="30"/>
+        <image name="retweet-icon" width="30" height="30"/>
+    </resources>
 </document>
