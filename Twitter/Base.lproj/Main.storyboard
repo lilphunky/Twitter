@@ -74,7 +74,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wV-Q4-Jqr">
-                                            <rect key="frame" x="73" y="11" width="69" height="18"/>
+                                            <rect key="frame" x="73" y="11" width="286" height="18"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -89,9 +89,11 @@
                                     <constraints>
                                         <constraint firstItem="GZI-gp-RBt" firstAttribute="top" secondItem="guw-VX-IJ7" secondAttribute="top" id="5WQ-CI-g5E"/>
                                         <constraint firstItem="GZI-gp-RBt" firstAttribute="leading" secondItem="guw-VX-IJ7" secondAttribute="leading" id="9jK-6Q-Cqe"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="0wV-Q4-Jqr" secondAttribute="trailing" id="CRR-Bo-Kwv"/>
                                         <constraint firstItem="etc-n5-6G9" firstAttribute="bottom" secondItem="guw-VX-IJ7" secondAttribute="bottomMargin" id="Wjl-cc-wCk"/>
                                         <constraint firstItem="0wV-Q4-Jqr" firstAttribute="top" secondItem="guw-VX-IJ7" secondAttribute="topMargin" id="ZTK-rC-1N3"/>
                                         <constraint firstItem="0wV-Q4-Jqr" firstAttribute="leading" secondItem="GZI-gp-RBt" secondAttribute="trailing" constant="8" id="hxf-lA-U7F"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="GZI-gp-RBt" secondAttribute="bottom" id="pNT-Q6-dgN"/>
                                         <constraint firstItem="etc-n5-6G9" firstAttribute="trailing" secondItem="guw-VX-IJ7" secondAttribute="trailingMargin" id="tNR-8f-r6v"/>
                                         <constraint firstItem="etc-n5-6G9" firstAttribute="leading" secondItem="GZI-gp-RBt" secondAttribute="trailing" constant="8" id="vE7-qX-8Ta"/>
                                         <constraint firstItem="etc-n5-6G9" firstAttribute="top" secondItem="0wV-Q4-Jqr" secondAttribute="bottom" constant="4" id="yBN-rd-4he"/>
